@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Truck, ArrowDownLeft, ArrowUpRight, Search, AlertTriangle, Clock, Activity, Zap } from "lucide-react";
 import { generateVehicleEntries, indianStates, tollGates, stateDistricts } from "@/data/mockData";
+import LiveVehicleFeed from "@/components/LiveVehicleFeed";
 
 const vehicleEntries = generateVehicleEntries(100);
 
