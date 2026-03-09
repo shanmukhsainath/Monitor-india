@@ -29,6 +29,7 @@ const App = () => (
             <Route path="/toll-gates" element={<TollGates />} />
             <Route path="/carbon-credits" element={<CarbonCredits />} />
             <Route path="/aqi-map" element={<AQIMap />} />
+            <Route path="/aqi-prediction" element={<AQIPrediction />} />
             <Route path="/login" element={<Login />} />
             <Route path="/admin" element={<AdminDashboard />} />
             <Route path="*" element={<NotFound />} />

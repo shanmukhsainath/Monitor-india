@@ -149,6 +149,11 @@ export default function TollGates() {
           </div>
         </Card>
 
+        {/* Live Feed + Table */}
+        <div className="mb-6">
+          <LiveVehicleFeed />
+        </div>
+
         {/* Table */}
         <Card className="shadow-card overflow-hidden">
           <div className="flex items-center gap-2 border-b border-border p-5">
